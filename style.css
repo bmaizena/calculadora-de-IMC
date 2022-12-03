@@ -51,14 +51,13 @@ main p {
     
 }
 
-#calc {
-    margin: auto;
+.calc {
     text-align: center;
     padding: 20px;
     
 }
 
-#botao {
+#botao, #limpar {
     width: 200px;
     font-size: 0.9em;
     border: none;
@@ -68,9 +67,12 @@ main p {
     padding: 7px;
 }
 
-#botao:hover {
+#botao:hover, #limpar:hover {
+    width: 230px;
     background-color: rgba(0, 0, 255, 0.212);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
+    transition: width 0.3s;
+    
 }
 
 #res {

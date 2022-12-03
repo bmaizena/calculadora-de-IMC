@@ -35,3 +35,8 @@ function calcular() {
     alt.value = ''
     alt.focus()
 }
+
+function limpar() {
+    res.innerHTML = ''
+    fim.innerHTML = ''
+}
